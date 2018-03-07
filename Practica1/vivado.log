@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Mar  6 15:09:09 2018
+# Process ID: 14008
+# Current directory: C:/Users/geoge/Desktop/Arquitectura/Practica1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10676 C:\Users\geoge\Desktop\Arquitectura\Practica1\Practica1.xpr
+# Log file: C:/Users/geoge/Desktop/Arquitectura/Practica1/vivado.log
+# Journal file: C:/Users/geoge/Desktop/Arquitectura/Practica1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/geoge/Desktop/Arquitectura/Practica1/Practica1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+open_hw
+close_hw
+launch_runs impl_1 -jobs 4
+[Tue Mar  6 15:11:08 2018] Launched impl_1...
+Run output will be captured here: C:/Users/geoge/Desktop/Arquitectura/Practica1/Practica1.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-3
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/geoge/Desktop/Arquitectura/Practica1/Practica1.srcs/constrs_1/new/Sumador.xdc]
+Finished Parsing XDC File [C:/Users/geoge/Desktop/Arquitectura/Practica1/Practica1.srcs/constrs_1/new/Sumador.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 1289.609 ; gain = 409.895
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar  6 15:13:27 2018] Launched impl_1...
+Run output will be captured here: C:/Users/geoge/Desktop/Arquitectura/Practica1/Practica1.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  6 15:28:43 2018...

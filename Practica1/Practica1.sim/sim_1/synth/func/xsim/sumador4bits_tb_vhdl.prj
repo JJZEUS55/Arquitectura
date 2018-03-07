@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"sumador4bits_tb_func_synth.vhd" \
+"../../../../../Practica1.srcs/sim_1/new/sumador_tb.vhd" \
+
+# Do not sort compile order
+nosort
