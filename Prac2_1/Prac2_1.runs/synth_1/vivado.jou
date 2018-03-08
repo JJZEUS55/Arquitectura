@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Mar  8 03:38:59 2018
+# Process ID: 14660
+# Current directory: C:/Users/geoge/Desktop/Arquitectura-master/Prac2_1/Prac2_1.runs/synth_1
+# Command line: vivado.exe -log sumador.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sumador.tcl
+# Log file: C:/Users/geoge/Desktop/Arquitectura-master/Prac2_1/Prac2_1.runs/synth_1/sumador.vds
+# Journal file: C:/Users/geoge/Desktop/Arquitectura-master/Prac2_1/Prac2_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sumador.tcl -notrace
