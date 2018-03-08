@@ -22,15 +22,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
 entity sumador4bits is
     Port ( a,b : in STD_LOGIC_VECTOR (3 downto 0);
            cin : in STD_LOGIC;
@@ -44,6 +35,7 @@ signal C : std_logic_vector(4 downto 0);
 
 begin
 
+    c(0) <= cin;
     generate_for : for i in 0 to 3 generate
     begin
         Eb(i) <= b(i) xor cin;

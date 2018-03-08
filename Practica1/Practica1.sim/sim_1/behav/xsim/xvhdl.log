@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Practica1/Practica1.srcs/sim_1/new/sumador_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity sumador4bits_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/Arquitectura-master/Practica1/Practica1.srcs/sources_1/new/sumador4bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sumador4bits

@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/geoge/Practica1/Practica1.srcs/constrs_1/new/Sumador.xdc rfile:../../../Practica1.srcs/constrs_1/new/Sumador.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/geoge/Desktop/Arquitectura-master/Practica1/Practica1.srcs/constrs_1/new/Sumador.xdc rfile:../../../Practica1.srcs/constrs_1/new/Sumador.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN J15 [get_ports {a[0]}]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]

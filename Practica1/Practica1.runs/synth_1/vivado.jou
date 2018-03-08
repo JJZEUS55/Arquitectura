@@ -2,11 +2,11 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Tue Mar  6 14:34:51 2018
-# Process ID: 14784
-# Current directory: C:/Users/geoge/Practica1/Practica1.runs/synth_1
+# Start of session at: Thu Mar  8 01:13:23 2018
+# Process ID: 16604
+# Current directory: C:/Users/geoge/Desktop/Arquitectura-master/Practica1/Practica1.runs/synth_1
 # Command line: vivado.exe -log sumador4bits.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sumador4bits.tcl
-# Log file: C:/Users/geoge/Practica1/Practica1.runs/synth_1/sumador4bits.vds
-# Journal file: C:/Users/geoge/Practica1/Practica1.runs/synth_1\vivado.jou
+# Log file: C:/Users/geoge/Desktop/Arquitectura-master/Practica1/Practica1.runs/synth_1/sumador4bits.vds
+# Journal file: C:/Users/geoge/Desktop/Arquitectura-master/Practica1/Practica1.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source sumador4bits.tcl -notrace

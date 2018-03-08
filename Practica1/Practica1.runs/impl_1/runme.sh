@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/geoge/Desktop/Arquitectura/Practica1/Practica1.runs/impl_1'
+HD_PWD='C:/Users/geoge/Desktop/Arquitectura-master/Practica1/Practica1.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
