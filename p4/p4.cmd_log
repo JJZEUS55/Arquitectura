@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/cesarsantillan_1947/Desktop/PD/p4/p4.xst" -ofn "C:/Users/cesarsantillan_1947/Desktop/PD/p4/p4.syr" 
+xst -intstyle ise -ifn "C:/Users/cesarsantillan_1947/Desktop/PD/p4/p4.xst" -ofn "C:/Users/cesarsantillan_1947/Desktop/PD/p4/p4.syr" 
+xst -intstyle ise -ifn "C:/Users/Acer/Desktop/Arquitectura/p4/p4.xst" -ofn "C:/Users/Acer/Desktop/Arquitectura/p4/p4.syr" 

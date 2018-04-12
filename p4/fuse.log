@@ -1,0 +1,26 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Acer/Desktop/Arquitectura/p4/T_p4t_File_isim_beh.exe -prj C:/Users/Acer/Desktop/Arquitectura/p4/T_p4t_File_beh.prj work.T_p4t_File 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/p4/p4.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/p4/p4t.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 103168 KB
+Fuse CPU Usage: 1184 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package textio
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_textio
+Compiling architecture a_p4 of entity p4 [\p4(16,4)\]
+Compiling architecture behavior of entity t_p4t_file
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 10 VHDL Units
+Built simulation executable C:/Users/Acer/Desktop/Arquitectura/p4/T_p4t_File_isim_beh.exe
+Fuse Memory Usage: 126384 KB
+Fuse CPU Usage: 1981 ms

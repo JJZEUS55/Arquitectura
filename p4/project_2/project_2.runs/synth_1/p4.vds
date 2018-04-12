@@ -1,0 +1,286 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Apr 11 21:55:26 2018
+# Process ID: 17432
+# Current directory: C:/Users/geoge/Desktop/PROYECTO/p4/project_2/project_2.runs/synth_1
+# Command line: vivado.exe -log p4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source p4.tcl
+# Log file: C:/Users/geoge/Desktop/PROYECTO/p4/project_2/project_2.runs/synth_1/p4.vds
+# Journal file: C:/Users/geoge/Desktop/PROYECTO/p4/project_2/project_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source p4.tcl -notrace
+Command: synth_design -top p4 -part xc7a100tcsg324-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20304 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 344.211 ; gain = 100.379
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'p4' [C:/Users/geoge/Desktop/PROYECTO/p4/p4.vhd:31]
+	Parameter tam_palabra bound to: 16 - type: integer 
+	Parameter tam_bus bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'p4' (1#1) [C:/Users/geoge/Desktop/PROYECTO/p4/p4.vhd:31]
+WARNING: [Synth 8-3331] design p4 has unconnected port SHAMT[2]
+WARNING: [Synth 8-3331] design p4 has unconnected port SHAMT[1]
+WARNING: [Synth 8-3331] design p4 has unconnected port SHAMT[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 396.297 ; gain = 152.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 396.297 ; gain = 152.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 396.297 ; gain = 152.465
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-2
+INFO: [Synth 8-5544] ROM "fileRegister_reg[0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[1]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[2]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[3]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[4]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[5]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[6]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[7]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[8]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[9]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[10]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[11]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[12]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[13]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[14]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fileRegister_reg[15]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'srl_ssl_reg' [C:/Users/geoge/Desktop/PROYECTO/p4/p4.vhd:80]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 396.297 ; gain = 152.465
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module p4 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design p4 has unconnected port SHAMT[2]
+WARNING: [Synth 8-3331] design p4 has unconnected port SHAMT[1]
+WARNING: [Synth 8-3331] design p4 has unconnected port SHAMT[0]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\srl_ssl_reg[0] )
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[8]' (LD) to 'srl_ssl_reg[9]'
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[9]' (LD) to 'srl_ssl_reg[10]'
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[10]' (LD) to 'srl_ssl_reg[11]'
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[11]' (LD) to 'srl_ssl_reg[12]'
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[12]' (LD) to 'srl_ssl_reg[13]'
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[13]' (LD) to 'srl_ssl_reg[14]'
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[14]' (LD) to 'srl_ssl_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\srl_ssl_reg[15] )
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[0]' (LD) to 'srl_ssl_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\srl_ssl_reg[1] )
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[1]' (LD) to 'srl_ssl_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\srl_ssl_reg[2] )
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[2]' (LD) to 'srl_ssl_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\srl_ssl_reg[3] )
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[3]' (LD) to 'srl_ssl_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\srl_ssl_reg[4] )
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[4]' (LD) to 'srl_ssl_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\srl_ssl_reg[5] )
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[5]' (LD) to 'srl_ssl_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\srl_ssl_reg[6] )
+INFO: [Synth 8-3886] merging instance 'srl_ssl_reg[6]' (LD) to 'srl_ssl_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\srl_ssl_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (srl_ssl_reg[15]) is unused and will be removed from module p4.
+WARNING: [Synth 8-3332] Sequential element (srl_ssl_reg[7]) is unused and will be removed from module p4.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 609.934 ; gain = 366.102
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 609.934 ; gain = 366.102
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 609.934 ; gain = 366.102
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 609.934 ; gain = 366.102
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 609.934 ; gain = 366.102
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 609.934 ; gain = 366.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 609.934 ; gain = 366.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 609.934 ; gain = 366.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 609.934 ; gain = 366.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT2  |    16|
+|3     |LUT5  |    16|
+|4     |LUT6  |   128|
+|5     |MUXF7 |    64|
+|6     |MUXF8 |    32|
+|7     |FDCE  |   256|
+|8     |IBUF  |    32|
+|9     |OBUF  |    32|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   577|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 609.934 ; gain = 366.102
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 609.934 ; gain = 366.102
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 609.934 ; gain = 366.102
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 128 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 656.801 ; gain = 425.918
+INFO: [Common 17-1381] The checkpoint 'C:/Users/geoge/Desktop/PROYECTO/p4/project_2/project_2.runs/synth_1/p4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file p4_utilization_synth.rpt -pb p4_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 656.801 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 11 21:55:52 2018...

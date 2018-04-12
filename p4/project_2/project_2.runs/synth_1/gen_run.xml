@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-2" LaunchTime="1523501723">
+  <File Type="PA-TCL" Name="p4.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="p4_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="p4_reports.tcl"/>
+  <File Type="RDS-RDS" Name="p4.vds"/>
+  <File Type="RDS-UTIL" Name="p4_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="p4_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="p4.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="p4_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="p4_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../p4.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/import_ise_summary.txt"/>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="p4"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../in.txt"/>
+    <File Path="$PPRDIR/../out.txt"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
