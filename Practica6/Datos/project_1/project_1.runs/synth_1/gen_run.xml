@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1523840363">
+  <File Type="PA-TCL" Name="Datos.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Datos_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Datos_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Datos.vds"/>
+  <File Type="RDS-UTIL" Name="Datos_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Datos_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Datos.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Datos_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Datos_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../Datos.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../VECTORES.txt">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../RESULTADOS.txt">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/import_ise_summary.txt"/>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Datos"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

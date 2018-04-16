@@ -1,0 +1,13 @@
+ Dir   D_in    WD  D_out
+XXXX    A25     U    XXX
+XXXX    A25     U    XXX
+XXXX    123     U    XXX
+XXXX    123     U    XXX
+XXXX    987     U    XXX
+XXXX    987     U    XXX
+XXXX    ABC     U    XXX
+XXXX    ABC     U    XXX
+XXXX    B83     U    XXX
+XXXX    B83     U    XXX
+XXXX    873     U    XXX
+XXXX    873     U    XXX
