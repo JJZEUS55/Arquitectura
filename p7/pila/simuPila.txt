@@ -1,0 +1,94 @@
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+ 
+
+ENTITY t_pila IS
+END t_pila;
+ 
+ARCHITECTURE behavior OF t_pila IS 
+ 
+    COMPONENT pila
+    PORT(
+         DW : IN  std_logic;
+         UP : IN  std_logic;
+         L : IN  std_logic;
+         CLR : IN  std_logic;
+         CLK : IN  std_logic;
+         DATOS_PILA : IN  std_logic_vector(10 downto 0);
+         BUS_PC : OUT  std_logic_vector(10 downto 0);
+         SP_OUT : OUT  std_logic_vector(2 downto 0)
+        );
+    END COMPONENT;
+    
+
+   --Inputs
+   signal DW : std_logic := '0';
+   signal UP : std_logic := '0';
+   signal L : std_logic := '0';
+   signal CLR : std_logic := '0';
+   signal CLK : std_logic := '0';
+   signal DATOS_PILA : std_logic_vector(10 downto 0) := (others => '0');
+
+ 	--Outputs
+   signal BUS_PC : std_logic_vector(10 downto 0);
+   signal SP_OUT : std_logic_vector(2 downto 0);
+
+   -- Clock period definitions
+   constant CLK_period : time := 10 ns;
+ 
+BEGIN
+ 
+	-- Instantiate the Unit Under Test (UUT)
+   uut: pila PORT MAP (
+          DW => DW,
+          UP => UP,
+          L => L,
+          CLR => CLR,
+          CLK => CLK,
+          DATOS_PILA => DATOS_PILA,
+          BUS_PC => BUS_PC,
+          SP_OUT => SP_OUT
+        );
+
+   -- Clock process definitions
+   CLK_process :process
+   begin
+		CLK <= '0';
+		wait for CLK_period/2;
+		CLK <= '1';
+		wait for CLK_period/2;
+   end process;
+ 
+
+   -- Stimulus process
+   stim_proc: process
+   begin		
+       
+		 CLR <= '1';
+		 wait for 50 ns;
+		 CLR <= '0';
+		 wait for 100 ns;
+		 L <= '1';
+		 DATOS_PILA <= "00000000111";
+		 wait for 10 ns;
+		 L <= '0';
+		 wait for 50 ns;
+		 L <= '1';
+		 UP <= '1';
+		 DATOS_PILA <= "00000000100";
+		 wait for 10 ns;
+		 L <= '0';
+		 UP <= '0';
+		 wait for 50 ns;
+		 DW <= '1';
+		 wait for 10 ns;
+		 DW <= '0'; 
+		 wait for 50 ns;
+
+      -- insert stimulus here 
+
+      wait;
+   end process;
+
+END;

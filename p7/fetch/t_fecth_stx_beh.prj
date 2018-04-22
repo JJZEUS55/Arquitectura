@@ -1,0 +1,4 @@
+vhdl isim_temp "pila.vhd"
+vhdl isim_temp "memProg.vhd"
+vhdl isim_temp "fetch.vhd"
+vhdl isim_temp "t_fecth.vhd"

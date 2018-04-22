@@ -1,0 +1,30 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Acer/Desktop/Arquitectura/p6/fetch/t_fecth_isim_beh.exe -prj C:/Users/Acer/Desktop/Arquitectura/p6/fetch/t_fecth_beh.prj work.t_fecth 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/p6/fetch/pila.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/p6/fetch/memProg.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/p6/fetch/fetch.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/p6/fetch/t_fecth.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 106820 KB
+Fuse CPU Usage: 1153 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package textio
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_textio
+Compiling architecture behavioral of entity pila [\pila(8)\]
+Compiling architecture behavioral of entity memProg [\memProg(11,25)\]
+Compiling architecture behavioral of entity fetch [\fetch(11,25)\]
+Compiling architecture behavior of entity t_fecth
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 14 VHDL Units
+Built simulation executable C:/Users/Acer/Desktop/Arquitectura/p6/fetch/t_fecth_isim_beh.exe
+Fuse Memory Usage: 131060 KB
+Fuse CPU Usage: 1980 ms

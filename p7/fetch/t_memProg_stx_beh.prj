@@ -1,0 +1,2 @@
+vhdl isim_temp "memProg.vhd"
+vhdl isim_temp "../memProg/t_memProg.vhd"

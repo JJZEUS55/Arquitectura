@@ -1,0 +1,2 @@
+vhdl work "memProg.vhd"
+vhdl work "t_memProg.vhd"

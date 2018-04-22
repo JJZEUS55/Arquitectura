@@ -1,0 +1,5 @@
+vhdtdtfi -lib work memProg.vhd -prj fetch -o memProg.spl -module memProg -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 memProg.spl C:/Users/Acer/Desktop/Arquitectura/p6/fetch/memProg.sym 
+vhdtdtfi -prj fetch -o C:/Users/Acer/Desktop/Arquitectura/p6/fetch/memProg.tfi -module memProg -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work memProg.vhd 
+vhdtdtfi -prj fetch -o C:/Users/Acer/Desktop/Arquitectura/p6/fetch/memProg.tfi -module memProg -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work memProg.vhd 
+vhdtdtfi -prj fetch -o C:/Users/Acer/Desktop/Arquitectura/p6/fetch/memProg.tfi -module memProg -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work memProg.vhd 

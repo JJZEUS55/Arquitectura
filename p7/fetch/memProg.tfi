@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+memProg instance_name (
+    .dir_r(dir_r), 
+    .data_out(data_out)
+    );
+
+

@@ -1,0 +1,4 @@
+vhdl work "pila.vhd"
+vhdl work "memProg.vhd"
+vhdl work "fetch.vhd"
+vhdl work "t_fecth.vhd"
