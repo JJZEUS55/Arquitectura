@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Acer/Desktop/Arquitectura/p7/deco/t_deco_isim_beh.exe" -prj "C:/Users/Acer/Desktop/Arquitectura/p7/deco/t_deco_beh.prj" "work.t_deco" 

@@ -1,0 +1,2 @@
+vhdl work "control.vhd"
+vhdl work "t_control.vhd"

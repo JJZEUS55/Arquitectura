@@ -1,0 +1,93 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun May 13 22:02:59 2018
+# Process ID: 26488
+# Current directory: C:/Users/geoge/Desktop/p7/union/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17504 C:\Users\geoge\Desktop\p7\union\project_1\project_1.xpr
+# Log file: C:/Users/geoge/Desktop/p7/union/project_1/vivado.log
+# Journal file: C:/Users/geoge/Desktop/p7/union/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/geoge/Desktop/p7/union/project_1/project_1.xpr
+launch_simulation
+source t_unionFinal.tcl
+add_force {/t_unionFinal/a} -radix bin {010 0ns}
+add_force {/t_unionFinal/a} -radix bin {010 10ns}
+add_force {/t_unionFinal/a} -radix hex {100101000 30ns}
+add_force {/t_unionFinal/a} -radix bin {100101000 30ns}
+add_force {/t_unionFinal/a} -radix bin {100101000 50ns}
+synth_design -rtl -name rtl_1
+set_property IOSTANDARD LVCMOS18 [get_ports [list {a[8]} {a[7]} {a[6]} {a[5]} {a[4]} {a[3]} {a[2]} {a[1]} {a[0]}]]
+set_property package_pin "" [get_ports [list  {a[1]}]]
+place_ports {a[0]} J15
+place_ports {a[1]} L16
+place_ports {a[2]} M3
+place_ports {a[2]} M13
+place_ports {a[3]} R15
+place_ports {a[4]} R17
+place_ports {a[5]} T18
+place_ports {a[6]} U18
+place_ports {a[7]} R13
+place_ports {a[8]} T8
+set_property package_pin "" [get_ports [list  {anodo[1]}]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {a[8]} {a[7]} {a[6]} {a[5]} {a[4]} {a[3]} {a[2]} {a[1]} {a[0]}]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {anodo[3]} {anodo[2]} {anodo[1]} {anodo[0]}]]
+place_ports {anodo[0]} J17
+place_ports {anodo[1]} J18
+place_ports {anodo[2]} T9
+place_ports {anodo[3]} J14
+set_property IOSTANDARD LVCMOS18 [get_ports [list {dato[8]} {dato[7]} {dato[6]} {dato[5]} {dato[4]} {dato[3]} {dato[2]} {dato[1]} {dato[0]}]]
+place_ports {dato[0]} V10
+place_ports {dato[1]} U1
+place_ports {dato[1]} U11
+place_ports {dato[2]} U12
+place_ports {dato[3]} H6
+place_ports {dato[4]} T3
+place_ports {dato[4]} T13
+place_ports {dato[5]} R16
+place_ports {dato[6]} U8
+startgroup
+set_property package_pin "" [get_ports [list  {a[8]}]]
+place_ports {dato[7]} T8
+endgroup
+startgroup
+set_property package_pin "" [get_ports [list  {a[7]}]]
+place_ports {dato[8]} R13
+endgroup
+set_property package_pin "" [get_ports [list  {display2[2]}]]
+set_property package_pin "" [get_ports [list  {display2[0]}]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {display2[6]} {display2[5]} {display2[4]} {display2[3]} {display2[2]} {display2[1]} {display2[0]}]]
+place_ports {display2[0]} T10
+place_ports {display2[1]} R10
+place_ports {display2[2]} K16
+place_ports {display2[3]} K3
+place_ports {display2[3]} K13
+place_ports {display2[4]} P15
+place_ports {display2[5]} T11
+place_ports {display2[6]} L18
+set_property IOSTANDARD LVCMOS25 [get_ports [list clk]]
+undo
+set_property IOSTANDARD LVCMOS18 [get_ports [list clk]]
+place_ports clr P17
+set_property IOSTANDARD LVCMOS18 [get_ports [list clr]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list ini2]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list clk_out]]
+startgroup
+set_property package_pin "" [get_ports [list  {a[0]}]]
+place_ports ini2 J15
+endgroup
+set_property package_pin "" [get_ports [list  clk]]
+file mkdir C:/Users/geoge/Desktop/p7/union/project_1/project_1.srcs/constrs_1/new
+close [ open C:/Users/geoge/Desktop/p7/union/project_1/project_1.srcs/constrs_1/new/pini_o.xdc w ]
+add_files -fileset constrs_1 C:/Users/geoge/Desktop/p7/union/project_1/project_1.srcs/constrs_1/new/pini_o.xdc
+set_property target_constrs_file C:/Users/geoge/Desktop/p7/union/project_1/project_1.srcs/constrs_1/new/pini_o.xdc [current_fileset -constrset]
+save_constraints -force
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
+close_sim

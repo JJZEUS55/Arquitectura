@@ -1,0 +1,7 @@
+vhdl work "../registro/registro.vhd"
+vhdl work "../mux/mux.vhd"
+vhdl work "../deco/deco.vhd"
+vhdl work "../control/control.vhd"
+vhdl work "../contador/contador.vhd"
+vhdl work "union.vhd"
+vhdl work "t_union2.vhd"

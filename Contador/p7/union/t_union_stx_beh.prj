@@ -1,0 +1,7 @@
+vhdl isim_temp "../registro/registro.vhd"
+vhdl isim_temp "../mux/mux.vhd"
+vhdl isim_temp "../deco/deco.vhd"
+vhdl isim_temp "../control/control.vhd"
+vhdl isim_temp "../contador/contador.vhd"
+vhdl isim_temp "union.vhd"
+vhdl isim_temp "t_union.vhd"

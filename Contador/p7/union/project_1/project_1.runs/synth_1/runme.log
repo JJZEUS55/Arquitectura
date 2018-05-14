@@ -1,0 +1,328 @@
+
+*** Running vivado
+    with args -log union.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source union.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source union.tcl -notrace
+Command: synth_design -top union -part xc7a100tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15968 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 344.508 ; gain = 100.340
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'union' [C:/Users/geoge/Desktop/p7/union/union.vhd:17]
+INFO: [Synth 8-3491] module 'divFrecuencia' declared at 'C:/Users/geoge/Desktop/p7/divFrecuencia/divFrecuencia.vhd:7' bound to instance 'divisor1' of component 'divFrecuencia' [C:/Users/geoge/Desktop/p7/union/union.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'divFrecuencia' [C:/Users/geoge/Desktop/p7/divFrecuencia/divFrecuencia.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'divFrecuencia' (1#1) [C:/Users/geoge/Desktop/p7/divFrecuencia/divFrecuencia.vhd:12]
+INFO: [Synth 8-3491] module 'registro' declared at 'C:/Users/geoge/Desktop/p7/registro/registro.vhd:8' bound to instance 'registro1' of component 'registro' [C:/Users/geoge/Desktop/p7/union/union.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'registro' [C:/Users/geoge/Desktop/p7/registro/registro.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'registro' (2#1) [C:/Users/geoge/Desktop/p7/registro/registro.vhd:14]
+INFO: [Synth 8-3491] module 'control' declared at 'C:/Users/geoge/Desktop/p7/control/control.vhd:6' bound to instance 'control1' of component 'control' [C:/Users/geoge/Desktop/p7/union/union.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'control' [C:/Users/geoge/Desktop/p7/control/control.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'control' (3#1) [C:/Users/geoge/Desktop/p7/control/control.vhd:11]
+INFO: [Synth 8-3491] module 'contador' declared at 'C:/Users/geoge/Desktop/p7/contador/contador.vhd:6' bound to instance 'contador1' of component 'contador' [C:/Users/geoge/Desktop/p7/union/union.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'contador' [C:/Users/geoge/Desktop/p7/contador/contador.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'contador' (4#1) [C:/Users/geoge/Desktop/p7/contador/contador.vhd:13]
+INFO: [Synth 8-3491] module 'mux' declared at 'C:/Users/geoge/Desktop/p7/mux/mux.vhd:5' bound to instance 'mux1' of component 'mux' [C:/Users/geoge/Desktop/p7/union/union.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/geoge/Desktop/p7/mux/mux.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'mux' (5#1) [C:/Users/geoge/Desktop/p7/mux/mux.vhd:11]
+INFO: [Synth 8-3491] module 'deco' declared at 'C:/Users/geoge/Desktop/p7/deco/deco.vhd:6' bound to instance 'deco1' of component 'deco' [C:/Users/geoge/Desktop/p7/union/union.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'deco' [C:/Users/geoge/Desktop/p7/deco/deco.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'deco' (6#1) [C:/Users/geoge/Desktop/p7/deco/deco.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'union' (7#1) [C:/Users/geoge/Desktop/p7/union/union.vhd:17]
+WARNING: [Synth 8-3917] design union has port anodo[3] driven by constant 1
+WARNING: [Synth 8-3917] design union has port anodo[2] driven by constant 0
+WARNING: [Synth 8-3917] design union has port anodo[1] driven by constant 0
+WARNING: [Synth 8-3917] design union has port anodo[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 396.805 ; gain = 152.637
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 396.805 ; gain = 152.637
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/geoge/Desktop/p7/union/project_1/project_1.srcs/constrs_1/new/pini_o.xdc]
+Finished Parsing XDC File [C:/Users/geoge/Desktop/p7/union/project_1/project_1.srcs/constrs_1/new/pini_o.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/geoge/Desktop/p7/union/project_1/project_1.srcs/constrs_1/new/pini_o.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/union_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/union_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 739.559 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 739.559 ; gain = 495.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 739.559 ; gain = 495.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 739.559 ; gain = 495.391
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element cont_reg was removed.  [C:/Users/geoge/Desktop/p7/divFrecuencia/divFrecuencia.vhd:21]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 739.559 ; gain = 495.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module registro 
+Detailed RTL Component Info : 
++---Registers : 
+	                9 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module control 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+Module contador 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element divisor1/cont_reg was removed.  [C:/Users/geoge/Desktop/p7/divFrecuencia/divFrecuencia.vhd:21]
+WARNING: [Synth 8-3917] design union has port anodo[3] driven by constant 1
+WARNING: [Synth 8-3917] design union has port anodo[2] driven by constant 0
+WARNING: [Synth 8-3917] design union has port anodo[1] driven by constant 0
+WARNING: [Synth 8-3917] design union has port anodo[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 739.559 ; gain = 495.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 739.559 ; gain = 495.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 739.559 ; gain = 495.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 758.480 ; gain = 514.313
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 758.480 ; gain = 514.313
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 758.480 ; gain = 514.313
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 758.480 ; gain = 514.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 758.480 ; gain = 514.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 758.480 ; gain = 514.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 758.480 ; gain = 514.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     6|
+|3     |LUT1   |     1|
+|4     |LUT2   |     1|
+|5     |LUT3   |     4|
+|6     |LUT4   |     4|
+|7     |LUT5   |    16|
+|8     |LUT6   |     2|
+|9     |FDCE   |    39|
+|10    |IBUF   |    12|
+|11    |OBUF   |    21|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------+--------------+------+
+|      |Instance    |Module        |Cells |
++------+------------+--------------+------+
+|1     |top         |              |   107|
+|2     |  contador1 |contador      |    14|
+|3     |  control1  |control       |    16|
+|4     |  divisor1  |divFrecuencia |    31|
+|5     |  registro1 |registro      |    12|
++------+------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 758.480 ; gain = 514.313
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 758.480 ; gain = 171.559
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 758.480 ; gain = 514.313
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 762.113 ; gain = 531.219
+INFO: [Common 17-1381] The checkpoint 'C:/Users/geoge/Desktop/p7/union/project_1/project_1.runs/synth_1/union.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file union_utilization_synth.rpt -pb union_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 762.113 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 14 03:31:34 2018...

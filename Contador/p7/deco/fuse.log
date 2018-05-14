@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Acer/Desktop/Arquitectura/p7/deco/t_deco_isim_beh.exe -prj C:/Users/Acer/Desktop/Arquitectura/p7/deco/t_deco_beh.prj work.t_deco 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/p7/deco/deco.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/p7/deco/t_deco.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 106116 KB
+Fuse CPU Usage: 997 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity deco [deco_default]
+Compiling architecture behavior of entity t_deco
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable C:/Users/Acer/Desktop/Arquitectura/p7/deco/t_deco_isim_beh.exe
+Fuse Memory Usage: 115060 KB
+Fuse CPU Usage: 1153 ms

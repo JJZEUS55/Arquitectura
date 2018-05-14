@@ -1,0 +1,224 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun May 13 22:02:59 2018
+# Process ID: 26488
+# Current directory: C:/Users/geoge/Desktop/p7/union/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17504 C:\Users\geoge\Desktop\p7\union\project_1\project_1.xpr
+# Log file: C:/Users/geoge/Desktop/p7/union/project_1/vivado.log
+# Journal file: C:/Users/geoge/Desktop/p7/union/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/geoge/Desktop/p7/union/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/geoge/Desktop/p7/union/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 't_unionFinal' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/geoge/Desktop/p7/union/project_1/project_1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj t_unionFinal_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/geoge/Desktop/p7/union/project_1/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto fdb02a42727744cda520a359a7b474c1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot t_unionFinal_behav xil_defaultlib.t_unionFinal -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/geoge/Desktop/p7/union/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "t_unionFinal_behav -key {Behavioral:sim_1:Functional:t_unionFinal} -tclbatch {t_unionFinal.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source t_unionFinal.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 't_unionFinal_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 813.418 ; gain = 18.969
+add_force {/t_unionFinal/a} -radix bin {010 0ns}
+add_force {/t_unionFinal/a} -radix bin {010 10ns}
+add_force {/t_unionFinal/a} -radix hex {100101000 30ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '100101000': Object size 9 does not match size of given value 100101000.
+add_force {/t_unionFinal/a} -radix bin {100101000 30ns}
+add_force {/t_unionFinal/a} -radix bin {100101000 50ns}
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-3
+Top: union
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 936.055 ; gain = 112.566
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'union' [C:/Users/geoge/Desktop/p7/union/union.vhd:17]
+INFO: [Synth 8-3491] module 'divFrecuencia' declared at 'C:/Users/geoge/Desktop/p7/divFrecuencia/divFrecuencia.vhd:7' bound to instance 'divisor1' of component 'divFrecuencia' [C:/Users/geoge/Desktop/p7/union/union.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'divFrecuencia' [C:/Users/geoge/Desktop/p7/divFrecuencia/divFrecuencia.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'divFrecuencia' (1#1) [C:/Users/geoge/Desktop/p7/divFrecuencia/divFrecuencia.vhd:12]
+INFO: [Synth 8-3491] module 'registro' declared at 'C:/Users/geoge/Desktop/p7/registro/registro.vhd:8' bound to instance 'registro1' of component 'registro' [C:/Users/geoge/Desktop/p7/union/union.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'registro' [C:/Users/geoge/Desktop/p7/registro/registro.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'registro' (2#1) [C:/Users/geoge/Desktop/p7/registro/registro.vhd:14]
+INFO: [Synth 8-3491] module 'control' declared at 'C:/Users/geoge/Desktop/p7/control/control.vhd:6' bound to instance 'control1' of component 'control' [C:/Users/geoge/Desktop/p7/union/union.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'control' [C:/Users/geoge/Desktop/p7/control/control.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'control' (3#1) [C:/Users/geoge/Desktop/p7/control/control.vhd:11]
+INFO: [Synth 8-3491] module 'contador' declared at 'C:/Users/geoge/Desktop/p7/contador/contador.vhd:6' bound to instance 'contador1' of component 'contador' [C:/Users/geoge/Desktop/p7/union/union.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'contador' [C:/Users/geoge/Desktop/p7/contador/contador.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'contador' (4#1) [C:/Users/geoge/Desktop/p7/contador/contador.vhd:13]
+INFO: [Synth 8-3491] module 'mux' declared at 'C:/Users/geoge/Desktop/p7/mux/mux.vhd:5' bound to instance 'mux1' of component 'mux' [C:/Users/geoge/Desktop/p7/union/union.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/geoge/Desktop/p7/mux/mux.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'mux' (5#1) [C:/Users/geoge/Desktop/p7/mux/mux.vhd:11]
+INFO: [Synth 8-3491] module 'deco' declared at 'C:/Users/geoge/Desktop/p7/deco/deco.vhd:6' bound to instance 'deco1' of component 'deco' [C:/Users/geoge/Desktop/p7/union/union.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'deco' [C:/Users/geoge/Desktop/p7/deco/deco.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'deco' (6#1) [C:/Users/geoge/Desktop/p7/deco/deco.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'union' (7#1) [C:/Users/geoge/Desktop/p7/union/union.vhd:17]
+WARNING: [Synth 8-3917] design union has port anodo[3] driven by constant 1
+WARNING: [Synth 8-3917] design union has port anodo[2] driven by constant 0
+WARNING: [Synth 8-3917] design union has port anodo[1] driven by constant 0
+WARNING: [Synth 8-3917] design union has port anodo[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 988.758 ; gain = 165.270
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 988.758 ; gain = 165.270
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:24 . Memory (MB): peak = 1328.055 ; gain = 504.566
+25 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:24 . Memory (MB): peak = 1328.055 ; gain = 504.566
+set_property IOSTANDARD LVCMOS18 [get_ports [list {a[8]} {a[7]} {a[6]} {a[5]} {a[4]} {a[3]} {a[2]} {a[1]} {a[0]}]]
+set_property package_pin "" [get_ports [list  {a[1]}]]
+place_ports {a[0]} J15
+place_ports {a[1]} L16
+place_ports {a[2]} M3
+place_ports {a[2]} M13
+place_ports {a[3]} R15
+place_ports {a[4]} R17
+place_ports {a[5]} T18
+place_ports {a[6]} U18
+place_ports {a[7]} R13
+place_ports {a[8]} T8
+set_property package_pin "" [get_ports [list  {anodo[1]}]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {a[8]} {a[7]} {a[6]} {a[5]} {a[4]} {a[3]} {a[2]} {a[1]} {a[0]}]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {anodo[3]} {anodo[2]} {anodo[1]} {anodo[0]}]]
+place_ports {anodo[0]} J17
+place_ports {anodo[1]} J18
+place_ports {anodo[2]} T9
+place_ports {anodo[3]} J14
+set_property IOSTANDARD LVCMOS18 [get_ports [list {dato[8]} {dato[7]} {dato[6]} {dato[5]} {dato[4]} {dato[3]} {dato[2]} {dato[1]} {dato[0]}]]
+place_ports {dato[0]} V10
+place_ports {dato[1]} U1
+place_ports {dato[1]} U11
+place_ports {dato[2]} U12
+place_ports {dato[3]} H6
+place_ports {dato[4]} T3
+place_ports {dato[4]} T13
+place_ports {dato[5]} R16
+place_ports {dato[6]} U8
+startgroup
+set_property package_pin "" [get_ports [list  {a[8]}]]
+place_ports {dato[7]} T8
+endgroup
+startgroup
+set_property package_pin "" [get_ports [list  {a[7]}]]
+place_ports {dato[8]} R13
+endgroup
+set_property package_pin "" [get_ports [list  {display2[2]}]]
+set_property package_pin "" [get_ports [list  {display2[0]}]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {display2[6]} {display2[5]} {display2[4]} {display2[3]} {display2[2]} {display2[1]} {display2[0]}]]
+place_ports {display2[0]} T10
+place_ports {display2[1]} R10
+place_ports {display2[2]} K16
+place_ports {display2[3]} K3
+place_ports {display2[3]} K13
+place_ports {display2[4]} P15
+place_ports {display2[5]} T11
+place_ports {display2[6]} L18
+set_property IOSTANDARD LVCMOS25 [get_ports [list clk]]
+undo
+INFO: [Common 17-17] undo 'set_property IOSTANDARD LVCMOS25 [get_ports [list clk]]'
+set_property IOSTANDARD LVCMOS18 [get_ports [list clk]]
+place_ports clr P17
+set_property IOSTANDARD LVCMOS18 [get_ports [list clr]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list ini2]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list clk_out]]
+startgroup
+set_property package_pin "" [get_ports [list  {a[0]}]]
+place_ports ini2 J15
+endgroup
+set_property package_pin "" [get_ports [list  clk]]
+file mkdir C:/Users/geoge/Desktop/p7/union/project_1/project_1.srcs/constrs_1/new
+close [ open C:/Users/geoge/Desktop/p7/union/project_1/project_1.srcs/constrs_1/new/pini_o.xdc w ]
+add_files -fileset constrs_1 C:/Users/geoge/Desktop/p7/union/project_1/project_1.srcs/constrs_1/new/pini_o.xdc
+set_property target_constrs_file C:/Users/geoge/Desktop/p7/union/project_1/project_1.srcs/constrs_1/new/pini_o.xdc [current_fileset -constrset]
+save_constraints -force
+launch_runs synth_1 -jobs 4
+[Mon May 14 03:30:39 2018] Launched synth_1...
+Run output will be captured here: C:/Users/geoge/Desktop/p7/union/project_1/project_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon May 14 03:31:44 2018] Launched impl_1...
+Run output will be captured here: C:/Users/geoge/Desktop/p7/union/project_1/project_1.runs/impl_1/runme.log
+close_design
+close_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1351.957 ; gain = 0.000
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/geoge/Desktop/p7/union/project_1/.Xil/Vivado-26488-JJZEUS55/dcp2/union.xdc]
+Finished Parsing XDC File [C:/Users/geoge/Desktop/p7/union/project_1/.Xil/Vivado-26488-JJZEUS55/dcp2/union.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1351.957 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1351.957 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1443.762 ; gain = 91.805
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1813.555 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 14 04:55:52 2018...

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Acer/Desktop/Arquitectura/p7/mux/t_mux_isim_beh.exe" -prj "C:/Users/Acer/Desktop/Arquitectura/p7/mux/t_mux_beh.prj" "work.t_mux" 

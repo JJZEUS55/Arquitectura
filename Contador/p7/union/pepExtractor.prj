@@ -1,0 +1,7 @@
+work	"../contador/contador.vhd"
+work	"../control/control.vhd"
+work	"../deco/deco.vhd"
+work	"../divFrecuencia/divFrecuencia.vhd"
+work	"../mux/mux.vhd"
+work	"../registro/registro.vhd"
+work	"union.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Acer/Desktop/Arquitectura/p7/divFrecuencia/t_DF3_isim_beh.exe" -prj "C:/Users/Acer/Desktop/Arquitectura/p7/divFrecuencia/t_DF3_beh.prj" "work.t_DF3" 

@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Mar  8 00:18:12 2018
+# Process ID: 16932
+# Current directory: C:/Users/geoge/Desktop/Arquitectura-master/Practica1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21464 C:\Users\geoge\Desktop\Arquitectura-master\Practica1\Practica1.xpr
+# Log file: C:/Users/geoge/Desktop/Arquitectura-master/Practica1/vivado.log
+# Journal file: C:/Users/geoge/Desktop/Arquitectura-master/Practica1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/geoge/Desktop/Arquitectura-master/Practica1/Practica1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sumador4bits_tb.tcl
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source sumador4bits_tb.tcl
+add_force {/sumador4bits_tb/a} -radix hex {8 0ns}
+restart
+add_force {/sumador4bits_tb/a} -radix hex {8 0ns}
+add_force {/sumador4bits_tb/b} -radix hex {4 0ns}
+add_force {/sumador4bits_tb/cin} -radix hex {1 0ns}
+run 10 ns
+add_force {/sumador4bits_tb/cin} -radix hex {0 0ns}
+run 10 ns
+add_force {/sumador4bits_tb/a} -radix hex {1 0ns}
+add_force {/sumador4bits_tb/b} -radix hex {0 0ns}
+add_force {/sumador4bits_tb/cin} -radix hex {0 0ns}
+run 10 ns
+add_force {/sumador4bits_tb/a} -radix bin {0001 0ns}
+add_force {/sumador4bits_tb/b} -radix bin {0000 0ns}
+run 10 ns
+add_force {/sumador4bits_tb/cin} -radix hex {1 0ns}
+run 10 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+source sumador4bits_tb.tcl
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

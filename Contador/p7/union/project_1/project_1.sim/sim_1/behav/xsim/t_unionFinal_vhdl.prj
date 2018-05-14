@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../registro/registro.vhd" \
+"../../../../../../mux/mux.vhd" \
+"../../../../../../divFrecuencia/divFrecuencia.vhd" \
+"../../../../../../deco/deco.vhd" \
+"../../../../../../control/control.vhd" \
+"../../../../../../contador/contador.vhd" \
+"../../../../../union.vhd" \
+"../../../../../t_unionFinal.vhd" \
+
+# Do not sort compile order
+nosort
