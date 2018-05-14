@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Letty/Desktop/Arquitectura/p5/p5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity p5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Letty/Desktop/Arquitectura/p5/t_p5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity t_p5
