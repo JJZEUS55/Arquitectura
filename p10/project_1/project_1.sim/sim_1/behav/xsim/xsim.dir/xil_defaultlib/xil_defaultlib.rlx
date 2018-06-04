@@ -1,0 +1,25 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/ESCOMIPS.vhd,1497560039,vhdl,,,,escomips,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/extensorD/extensorD.vhd,1497464650,vhdl,,,,extensord,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/extensorS/extensorS.vhd,1497464123,vhdl,,,,extensors,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/paketaxo.vhd,1497493050,vhdl,C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/ESCOMIPS.vhd,,,paketaxo,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/t_ESCOM3.vhd,1497560208,vhdl,,,,t_escom3,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/t_ESCOMIPS.vhd,1497503965,vhdl,,,,t_escomips,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/t_ESCOMIPS2.vhd,1497547924,vhdl,,,,t_escomips2,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/P3/P3.vhd,1497506365,vhdl,,,,alu_4bits,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/P9/Union/Union.vhd,1497488506,vhdl,,,,union,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/P9/Union/packet.vhd,1496875936,vhdl,C:/Users/geoge/Desktop/PROYECTO/P9/Union/Union.vhd,,,packet,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/P9/condicion/condicion.vhd,1496771756,vhdl,,,,condicion,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/P9/decoInst/decoInst.vhd,1496868446,vhdl,,,,decoinst,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/P9/microFuncion/microFuncion.vhd,1496781472,vhdl,,,,microfuncion,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/P9/microOpCode/microOpCode.vhd,1496959631,vhdl,,,,microopcode,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/P9/nivel/nivel.vhd,1496777022,vhdl,,,,nivel,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/P9/regEdo/regEdo2.vhd,1496775112,vhdl,,,,regedo2,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/P9/unicontrol/unicontrol.vhd,1496877329,vhdl,,,,unicontrol,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/p4/p4.vhd,1523505148,vhdl,,,,p4,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/p5/p5/p5.vhd,1497415141,vhdl,,,,p5,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/p6/memProg/memProg.vhd,1497554506,vhdl,,,,memprog,,,,,,,,
+C:/Users/geoge/Desktop/PROYECTO/p6/pila/pila.vhd,1497492926,vhdl,,,,pila,,,,,,,,

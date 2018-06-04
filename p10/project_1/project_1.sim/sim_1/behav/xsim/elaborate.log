@@ -1,0 +1,35 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto aedebeb3f7094acebe8f620e235f912c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot t_ESCOM3_behav xil_defaultlib.t_ESCOM3 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.paketaxo
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.packet
+Compiling architecture behavioral of entity xil_defaultlib.memProg [memprog_default]
+Compiling architecture behavioral of entity xil_defaultlib.pila [pila_default]
+Compiling architecture behavioral of entity xil_defaultlib.p5 [p5_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensorD [extensord_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensorS [extensors_default]
+Compiling architecture a_alu_4bits of entity xil_defaultlib.ALU_4bits [alu_4bits_default]
+Compiling architecture a_p4 of entity xil_defaultlib.p4 [p4_default]
+Compiling architecture behavioral of entity xil_defaultlib.condicion [condicion_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoInst [decoinst_default]
+Compiling architecture behavioral of entity xil_defaultlib.microFuncion [microfuncion_default]
+Compiling architecture behavioral of entity xil_defaultlib.microOpCode [microopcode_default]
+Compiling architecture behavioral of entity xil_defaultlib.nivel [nivel_default]
+Compiling architecture behavioral of entity xil_defaultlib.regEdo2 [regedo2_default]
+Compiling architecture behavioral of entity xil_defaultlib.unicontrol [unicontrol_default]
+Compiling architecture behavioral of entity xil_defaultlib.Union [union_default]
+Compiling architecture behavioral of entity xil_defaultlib.ESCOMIPS [escomips_default]
+Compiling architecture behavior of entity xil_defaultlib.t_escom3
+Built simulation snapshot t_ESCOM3_behav

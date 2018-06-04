@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Acer/Desktop/Arquitectura/extensorS/t_extensorS_isim_beh.exe" -prj "C:/Users/Acer/Desktop/Arquitectura/extensorS/t_extensorS_beh.prj" "work.t_extensorS" 
