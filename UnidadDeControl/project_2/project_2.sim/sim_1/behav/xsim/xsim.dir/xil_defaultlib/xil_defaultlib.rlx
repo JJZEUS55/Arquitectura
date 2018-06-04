@@ -1,0 +1,14 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/Letty/Desktop/UnidadDeControl/CodigoFuncionROM.vhd,1496862482,vhdl,,,,codigofuncionrom,,,,,,,,
+C:/Users/Letty/Desktop/UnidadDeControl/CodigoOperacionROM.vhd,1496824870,vhdl,,,,codigooperacionrom,,,,,,,,
+C:/Users/Letty/Desktop/UnidadDeControl/DecodificadorInstruccion.vhd,1496862206,vhdl,,,,decodificadorinstruccion,,,,,,,,
+C:/Users/Letty/Desktop/UnidadDeControl/DetectorNivel.vhd,1496862018,vhdl,,,,detectornivel,,,,,,,,
+C:/Users/Letty/Desktop/UnidadDeControl/PaqueteUC.vhd,1496734320,vhdl,C:/Users/Letty/Desktop/UnidadDeControl/UnidadDeControl.vhd,,,paqueteuc,,,,,,,,
+C:/Users/Letty/Desktop/UnidadDeControl/RegistroBanderas.vhd,1496824844,vhdl,,,,registrobanderas,,,,,,,,
+C:/Users/Letty/Desktop/UnidadDeControl/UnidadControl.vhd,1496862204,vhdl,,,,unidadcontrol,,,,,,,,
+C:/Users/Letty/Desktop/UnidadDeControl/UnidadDeControl.vhd,1496864732,vhdl,,,,unidaddecontrol,,,,,,,,
+C:/Users/Letty/Desktop/UnidadDeControl/UnidadDeControl_tb.vhd,1496886676,vhdl,,,,unidaddecontrol_tb,,,,,,,,
+C:/Users/Letty/Desktop/UnidadDeControl/VerificadorCondicion.vhd,1496862020,vhdl,,,,verificadorcondicion,,,,,,,,

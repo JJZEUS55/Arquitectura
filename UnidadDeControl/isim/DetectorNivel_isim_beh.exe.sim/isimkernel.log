@@ -1,0 +1,29 @@
+Command line:
+   DetectorNivel_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53792
+
+Tue Jun 06 01:02:10 2017
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 369.316 Meg
+
+ Total Signals          : 5
+ Total Nets             : 5
+ Total Signal Drivers   : 3
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 3
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 383
+Total Line Count : 7
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 369.316 Meg
+
+Tue Jun 06 01:02:18 2017
+

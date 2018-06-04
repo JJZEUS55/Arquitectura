@@ -1,0 +1,265 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml UnidadDeControl.twx UnidadDeControl.ncd -o
+UnidadDeControl.twr UnidadDeControl.pcf
+
+Design file:              UnidadDeControl.ncd
+Physical constraint file: UnidadDeControl.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+C           |   -1.063(F)|      FAST  |    3.164(F)|      SLOW  |clk_BUFGP         |   0.000|
+LF          |   -0.439(F)|      FAST  |    2.586(F)|      SLOW  |clk_BUFGP         |   0.000|
+Z           |   -1.057(F)|      FAST  |    3.158(F)|      SLOW  |clk_BUFGP         |   0.000|
+clr         |   -0.239(R)|      FAST  |    1.925(R)|      SLOW  |clk_BUFGP         |   0.000|
+            |   -0.196(F)|      FAST  |    2.247(F)|      SLOW  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+--------------------+-----------------+------------+-----------------+------------+------------------+--------+
+                    |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination         |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------------+-----------------+------------+-----------------+------------+------------------+--------+
+MicroInstruccion<0> |         9.460(R)|      SLOW  |         3.870(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        10.564(F)|      SLOW  |         3.816(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<1> |        10.043(R)|      SLOW  |         4.225(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.337(F)|      SLOW  |         4.195(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<2> |        10.335(R)|      SLOW  |         4.097(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.487(F)|      SLOW  |         4.067(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<3> |         8.780(R)|      SLOW  |         3.693(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |         9.862(F)|      SLOW  |         3.729(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<4> |        10.712(R)|      SLOW  |         4.476(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.916(F)|      SLOW  |         4.445(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<5> |         9.924(R)|      SLOW  |         4.201(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.218(F)|      SLOW  |         4.171(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<6> |        10.621(R)|      SLOW  |         4.064(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.773(F)|      SLOW  |         4.138(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<7> |        10.161(R)|      SLOW  |         4.173(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.455(F)|      SLOW  |         4.062(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<8> |         9.505(R)|      SLOW  |         3.898(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        10.799(F)|      SLOW  |         3.868(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<9> |         9.801(R)|      SLOW  |         4.093(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        10.922(F)|      SLOW  |         4.044(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<10>|        10.303(R)|      SLOW  |         4.301(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.638(F)|      SLOW  |         4.323(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<13>|        10.457(R)|      SLOW  |         4.045(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.609(F)|      SLOW  |         4.015(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<14>|        10.214(R)|      SLOW  |         4.262(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.411(F)|      SLOW  |         4.231(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<15>|        10.511(R)|      SLOW  |         4.196(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.663(F)|      SLOW  |         4.166(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<16>|        10.087(R)|      SLOW  |         4.284(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.422(F)|      SLOW  |         4.253(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<17>|         9.949(R)|      SLOW  |         4.129(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.025(F)|      SLOW  |         4.018(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<18>|         9.943(R)|      SLOW  |         4.172(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        11.278(F)|      SLOW  |         4.142(F)|      FAST  |clk_BUFGP         |   0.000|
+MicroInstruccion<19>|         9.877(R)|      SLOW  |         4.120(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |        10.998(F)|      SLOW  |         4.071(F)|      FAST  |clk_BUFGP         |   0.000|
+NA_out              |         8.606(R)|      SLOW  |         3.618(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |         8.818(F)|      SLOW  |         3.724(F)|      FAST  |clk_BUFGP         |   0.000|
+SDOPC_out           |         8.529(R)|      SLOW  |         3.603(R)|      FAST  |clk_BUFGP         |   0.000|
+                    |         9.611(F)|      SLOW  |         3.639(F)|      FAST  |clk_BUFGP         |   0.000|
+--------------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    0.806|         |         |    0.681|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+--------------------+---------+
+Source Pad     |Destination Pad     |  Delay  |
+---------------+--------------------+---------+
+FUN_CODE<0>    |MicroInstruccion<1> |    5.211|
+FUN_CODE<0>    |MicroInstruccion<4> |    5.831|
+FUN_CODE<0>    |MicroInstruccion<5> |    5.586|
+FUN_CODE<0>    |MicroInstruccion<6> |    5.744|
+FUN_CODE<0>    |MicroInstruccion<7> |    5.714|
+FUN_CODE<0>    |MicroInstruccion<10>|    5.870|
+FUN_CODE<0>    |MicroInstruccion<11>|    6.247|
+FUN_CODE<0>    |MicroInstruccion<12>|    5.806|
+FUN_CODE<0>    |MicroInstruccion<14>|    5.752|
+FUN_CODE<1>    |MicroInstruccion<1> |    5.425|
+FUN_CODE<1>    |MicroInstruccion<4> |    5.640|
+FUN_CODE<1>    |MicroInstruccion<5> |    5.732|
+FUN_CODE<1>    |MicroInstruccion<6> |    5.957|
+FUN_CODE<1>    |MicroInstruccion<7> |    5.508|
+FUN_CODE<1>    |MicroInstruccion<10>|    5.515|
+FUN_CODE<1>    |MicroInstruccion<11>|    6.029|
+FUN_CODE<1>    |MicroInstruccion<12>|    5.572|
+FUN_CODE<1>    |MicroInstruccion<14>|    5.762|
+FUN_CODE<2>    |MicroInstruccion<1> |    5.191|
+FUN_CODE<2>    |MicroInstruccion<4> |    5.496|
+FUN_CODE<2>    |MicroInstruccion<5> |    5.552|
+FUN_CODE<2>    |MicroInstruccion<6> |    5.892|
+FUN_CODE<2>    |MicroInstruccion<7> |    5.753|
+FUN_CODE<2>    |MicroInstruccion<10>|    5.766|
+FUN_CODE<2>    |MicroInstruccion<11>|    5.894|
+FUN_CODE<2>    |MicroInstruccion<12>|    5.439|
+FUN_CODE<2>    |MicroInstruccion<14>|    5.544|
+FUN_CODE<3>    |MicroInstruccion<1> |    5.357|
+FUN_CODE<3>    |MicroInstruccion<4> |    5.542|
+FUN_CODE<3>    |MicroInstruccion<5> |    5.386|
+FUN_CODE<3>    |MicroInstruccion<6> |    5.672|
+FUN_CODE<3>    |MicroInstruccion<7> |    5.208|
+FUN_CODE<3>    |MicroInstruccion<10>|    5.790|
+FUN_CODE<3>    |MicroInstruccion<11>|    6.324|
+FUN_CODE<3>    |MicroInstruccion<12>|    5.879|
+FUN_CODE<3>    |MicroInstruccion<14>|    5.778|
+OP_CODE<0>     |MicroInstruccion<0> |    7.327|
+OP_CODE<0>     |MicroInstruccion<1> |    8.063|
+OP_CODE<0>     |MicroInstruccion<2> |    8.064|
+OP_CODE<0>     |MicroInstruccion<3> |    6.661|
+OP_CODE<0>     |MicroInstruccion<4> |    8.579|
+OP_CODE<0>     |MicroInstruccion<5> |    7.944|
+OP_CODE<0>     |MicroInstruccion<6> |    8.403|
+OP_CODE<0>     |MicroInstruccion<7> |    8.181|
+OP_CODE<0>     |MicroInstruccion<8> |    7.525|
+OP_CODE<0>     |MicroInstruccion<9> |    7.668|
+OP_CODE<0>     |MicroInstruccion<10>|    8.215|
+OP_CODE<0>     |MicroInstruccion<11>|    6.191|
+OP_CODE<0>     |MicroInstruccion<12>|    5.742|
+OP_CODE<0>     |MicroInstruccion<13>|    8.186|
+OP_CODE<0>     |MicroInstruccion<14>|    8.081|
+OP_CODE<0>     |MicroInstruccion<15>|    8.240|
+OP_CODE<0>     |MicroInstruccion<16>|    8.036|
+OP_CODE<0>     |MicroInstruccion<17>|    7.816|
+OP_CODE<0>     |MicroInstruccion<18>|    7.941|
+OP_CODE<0>     |MicroInstruccion<19>|    7.744|
+OP_CODE<0>     |SDOPC_out           |    6.410|
+OP_CODE<0>     |SM_out              |    5.870|
+OP_CODE<1>     |MicroInstruccion<0> |    7.314|
+OP_CODE<1>     |MicroInstruccion<1> |    8.087|
+OP_CODE<1>     |MicroInstruccion<2> |    8.237|
+OP_CODE<1>     |MicroInstruccion<3> |    6.612|
+OP_CODE<1>     |MicroInstruccion<4> |    8.666|
+OP_CODE<1>     |MicroInstruccion<5> |    7.968|
+OP_CODE<1>     |MicroInstruccion<6> |    8.523|
+OP_CODE<1>     |MicroInstruccion<7> |    8.205|
+OP_CODE<1>     |MicroInstruccion<8> |    7.549|
+OP_CODE<1>     |MicroInstruccion<9> |    7.672|
+OP_CODE<1>     |MicroInstruccion<10>|    8.388|
+OP_CODE<1>     |MicroInstruccion<11>|    6.248|
+OP_CODE<1>     |MicroInstruccion<12>|    5.799|
+OP_CODE<1>     |MicroInstruccion<13>|    8.359|
+OP_CODE<1>     |MicroInstruccion<14>|    8.161|
+OP_CODE<1>     |MicroInstruccion<15>|    8.413|
+OP_CODE<1>     |MicroInstruccion<16>|    8.172|
+OP_CODE<1>     |MicroInstruccion<17>|    7.775|
+OP_CODE<1>     |MicroInstruccion<18>|    8.028|
+OP_CODE<1>     |MicroInstruccion<19>|    7.748|
+OP_CODE<1>     |SDOPC_out           |    6.361|
+OP_CODE<1>     |SM_out              |    5.718|
+OP_CODE<2>     |MicroInstruccion<0> |    7.215|
+OP_CODE<2>     |MicroInstruccion<1> |    7.951|
+OP_CODE<2>     |MicroInstruccion<2> |    7.913|
+OP_CODE<2>     |MicroInstruccion<3> |    6.549|
+OP_CODE<2>     |MicroInstruccion<4> |    8.467|
+OP_CODE<2>     |MicroInstruccion<5> |    7.832|
+OP_CODE<2>     |MicroInstruccion<6> |    8.291|
+OP_CODE<2>     |MicroInstruccion<7> |    8.069|
+OP_CODE<2>     |MicroInstruccion<8> |    7.413|
+OP_CODE<2>     |MicroInstruccion<9> |    7.556|
+OP_CODE<2>     |MicroInstruccion<10>|    8.023|
+OP_CODE<2>     |MicroInstruccion<11>|    6.340|
+OP_CODE<2>     |MicroInstruccion<12>|    5.891|
+OP_CODE<2>     |MicroInstruccion<13>|    8.035|
+OP_CODE<2>     |MicroInstruccion<14>|    7.969|
+OP_CODE<2>     |MicroInstruccion<15>|    8.089|
+OP_CODE<2>     |MicroInstruccion<16>|    7.924|
+OP_CODE<2>     |MicroInstruccion<17>|    7.704|
+OP_CODE<2>     |MicroInstruccion<18>|    7.829|
+OP_CODE<2>     |MicroInstruccion<19>|    7.632|
+OP_CODE<2>     |SDOPC_out           |    6.298|
+OP_CODE<2>     |SM_out              |    5.771|
+OP_CODE<3>     |MicroInstruccion<0> |    7.036|
+OP_CODE<3>     |MicroInstruccion<1> |    7.772|
+OP_CODE<3>     |MicroInstruccion<2> |    7.734|
+OP_CODE<3>     |MicroInstruccion<3> |    6.370|
+OP_CODE<3>     |MicroInstruccion<4> |    8.288|
+OP_CODE<3>     |MicroInstruccion<5> |    7.653|
+OP_CODE<3>     |MicroInstruccion<6> |    8.112|
+OP_CODE<3>     |MicroInstruccion<7> |    7.890|
+OP_CODE<3>     |MicroInstruccion<8> |    7.234|
+OP_CODE<3>     |MicroInstruccion<9> |    7.377|
+OP_CODE<3>     |MicroInstruccion<10>|    7.681|
+OP_CODE<3>     |MicroInstruccion<11>|    6.147|
+OP_CODE<3>     |MicroInstruccion<12>|    5.698|
+OP_CODE<3>     |MicroInstruccion<13>|    7.856|
+OP_CODE<3>     |MicroInstruccion<14>|    7.790|
+OP_CODE<3>     |MicroInstruccion<15>|    7.910|
+OP_CODE<3>     |MicroInstruccion<16>|    7.745|
+OP_CODE<3>     |MicroInstruccion<17>|    7.525|
+OP_CODE<3>     |MicroInstruccion<18>|    7.650|
+OP_CODE<3>     |MicroInstruccion<19>|    7.453|
+OP_CODE<3>     |SDOPC_out           |    6.119|
+OP_CODE<3>     |SM_out              |    5.592|
+OP_CODE<4>     |MicroInstruccion<0> |    7.439|
+OP_CODE<4>     |MicroInstruccion<1> |    8.175|
+OP_CODE<4>     |MicroInstruccion<2> |    8.137|
+OP_CODE<4>     |MicroInstruccion<3> |    6.773|
+OP_CODE<4>     |MicroInstruccion<4> |    8.691|
+OP_CODE<4>     |MicroInstruccion<5> |    8.056|
+OP_CODE<4>     |MicroInstruccion<6> |    8.515|
+OP_CODE<4>     |MicroInstruccion<7> |    8.293|
+OP_CODE<4>     |MicroInstruccion<8> |    7.637|
+OP_CODE<4>     |MicroInstruccion<9> |    7.780|
+OP_CODE<4>     |MicroInstruccion<10>|    8.103|
+OP_CODE<4>     |MicroInstruccion<11>|    6.347|
+OP_CODE<4>     |MicroInstruccion<12>|    5.898|
+OP_CODE<4>     |MicroInstruccion<13>|    8.259|
+OP_CODE<4>     |MicroInstruccion<14>|    8.193|
+OP_CODE<4>     |MicroInstruccion<15>|    8.313|
+OP_CODE<4>     |MicroInstruccion<16>|    8.148|
+OP_CODE<4>     |MicroInstruccion<17>|    7.928|
+OP_CODE<4>     |MicroInstruccion<18>|    8.053|
+OP_CODE<4>     |MicroInstruccion<19>|    7.856|
+OP_CODE<4>     |SDOPC_out           |    6.522|
+OP_CODE<4>     |SM_out              |    5.980|
+---------------+--------------------+---------+
+
+
+Analysis completed Wed Jun 07 17:14:49 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 668 MB
+
+
+

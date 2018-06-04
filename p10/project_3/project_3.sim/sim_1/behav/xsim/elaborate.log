@@ -1,0 +1,27 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto eccc291202df4cbd9c69699029486a5c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot t_ESCOMIPS2_behav xil_defaultlib.t_ESCOMIPS2 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-122] memprog remains a black-box since it has no binding entity [C:/Users/Letty/Desktop/Arquitectura/p10/ESCOMIPS.vhd:74]
+WARNING: [VRFC 10-122] pila remains a black-box since it has no binding entity [C:/Users/Letty/Desktop/Arquitectura/p10/ESCOMIPS.vhd:76]
+WARNING: [VRFC 10-122] p5 remains a black-box since it has no binding entity [C:/Users/Letty/Desktop/Arquitectura/p10/ESCOMIPS.vhd:78]
+WARNING: [VRFC 10-122] alu_4bits remains a black-box since it has no binding entity [C:/Users/Letty/Desktop/Arquitectura/p10/ESCOMIPS.vhd:84]
+WARNING: [VRFC 10-122] union remains a black-box since it has no binding entity [C:/Users/Letty/Desktop/Arquitectura/p10/ESCOMIPS.vhd:88]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.paketaxo
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.extensorD [extensord_default]
+Compiling architecture behavioral of entity xil_defaultlib.extensorS [extensors_default]
+Compiling architecture a_p4 of entity xil_defaultlib.p4 [p4_default]
+Compiling architecture behavioral of entity xil_defaultlib.ESCOMIPS [escomips_default]
+Compiling architecture behavior of entity xil_defaultlib.t_escomips2
+Built simulation snapshot t_ESCOMIPS2_behav

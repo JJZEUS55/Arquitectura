@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Caos/Desktop/ESCOM/2017-2/Materias/Arqui/Practicas/Practica9/UnidadDeControl/UnidadDeControl_tb_isim_beh.exe" -prj "C:/Users/Caos/Desktop/ESCOM/2017-2/Materias/Arqui/Practicas/Practica9/UnidadDeControl/UnidadDeControl_tb_beh.prj" "work.UnidadDeControl_tb" 

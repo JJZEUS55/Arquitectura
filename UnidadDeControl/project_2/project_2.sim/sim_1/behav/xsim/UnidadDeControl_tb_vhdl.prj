@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../VerificadorCondicion.vhd" \
+"../../../../../UnidadControl.vhd" \
+"../../../../../RegistroBanderas.vhd" \
+"../../../../../PaqueteUC.vhd" \
+"../../../../../DetectorNivel.vhd" \
+"../../../../../DecodificadorInstruccion.vhd" \
+"../../../../../CodigoOperacionROM.vhd" \
+"../../../../../CodigoFuncionROM.vhd" \
+"../../../../../UnidadDeControl.vhd" \
+"../../../../../UnidadDeControl_tb.vhd" \
+
+# Do not sort compile order
+nosort

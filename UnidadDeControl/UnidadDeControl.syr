@@ -1,0 +1,532 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: UnidadDeControl.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "UnidadDeControl.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "UnidadDeControl"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : UnidadDeControl
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\VerificadorCondicion.vhd" into library work
+Parsing entity <VerificadorCondicion>.
+Parsing architecture <Behavioral> of entity <verificadorcondicion>.
+Parsing VHDL file "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\UnidadControl.vhd" into library work
+Parsing entity <UnidadControl>.
+Parsing architecture <Behavioral> of entity <unidadcontrol>.
+Parsing VHDL file "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\RegistroBanderas.vhd" into library work
+Parsing entity <RegistroBanderas>.
+Parsing architecture <Behavioral> of entity <registrobanderas>.
+Parsing VHDL file "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\PaqueteUC.vhd" into library work
+Parsing package <PaqueteUC>.
+Parsing package body <PaqueteUC>.
+Parsing VHDL file "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\DetectorNivel.vhd" into library work
+Parsing entity <DetectorNivel>.
+Parsing architecture <Behavioral> of entity <detectornivel>.
+Parsing VHDL file "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\DecodificadorInstruccion.vhd" into library work
+Parsing entity <DecodificadorInstruccion>.
+Parsing architecture <Behavioral> of entity <decodificadorinstruccion>.
+Parsing VHDL file "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\CodigoOperacionROM.vhd" into library work
+Parsing entity <CodigoOperacionROM>.
+Parsing architecture <Behavioral> of entity <codigooperacionrom>.
+Parsing VHDL file "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\CodigoFuncionROM.vhd" into library work
+Parsing entity <CodigoFuncionROM>.
+Parsing architecture <Behavioral> of entity <codigofuncionrom>.
+Parsing VHDL file "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\UnidadDeControl.vhd" into library work
+Parsing entity <UnidadDeControl>.
+Parsing architecture <Behavioral> of entity <unidaddecontrol>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <UnidadDeControl> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <RegistroBanderas> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <VerificadorCondicion> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DetectorNivel> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DecodificadorInstruccion> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <UnidadControl> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <CodigoOperacionROM> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <CodigoFuncionROM> (architecture <Behavioral>) with generics from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <UnidadDeControl>.
+    Related source file is "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\UnidadDeControl.vhd".
+        tam_Microinstruccion = 20
+        tam_OPCODE = 5
+        tam_FUNCIONCODE = 4
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <UnidadDeControl> synthesized.
+
+Synthesizing Unit <RegistroBanderas>.
+    Related source file is "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\RegistroBanderas.vhd".
+    Found 1-bit register for signal <N_out>.
+    Found 1-bit register for signal <Z_out>.
+    Found 1-bit register for signal <C_out>.
+    Found 1-bit register for signal <OV_out>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <RegistroBanderas> synthesized.
+
+Synthesizing Unit <VerificadorCondicion>.
+    Related source file is "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\VerificadorCondicion.vhd".
+WARNING:Xst:647 - Input <OV> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <N> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <VerificadorCondicion> synthesized.
+
+Synthesizing Unit <DetectorNivel>.
+    Related source file is "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\DetectorNivel.vhd".
+    Found 1-bit register for signal <nclk1>.
+    Found 1-bit register for signal <pclk1>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <DetectorNivel> synthesized.
+
+Synthesizing Unit <DecodificadorInstruccion>.
+    Related source file is "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\DecodificadorInstruccion.vhd".
+    Summary:
+	no macro.
+Unit <DecodificadorInstruccion> synthesized.
+
+Synthesizing Unit <UnidadControl>.
+    Related source file is "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\UnidadControl.vhd".
+    Summary:
+	no macro.
+Unit <UnidadControl> synthesized.
+
+Synthesizing Unit <CodigoOperacionROM>.
+    Related source file is "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\CodigoOperacionROM.vhd".
+        tamWord = 20
+        tamDir = 5
+    Found 32x20-bit Read Only RAM for signal <MicroInstruccionOP>
+    Summary:
+	inferred   1 RAM(s).
+Unit <CodigoOperacionROM> synthesized.
+
+Synthesizing Unit <CodigoFuncionROM>.
+    Related source file is "C:\Users\Ariel\Documents\ESCOM\Sexto Semestre\Arquitectura de Computadoras\Practica9-Final\P9\UnidadDeControl\CodigoFuncionROM.vhd".
+        tamWord = 20
+        tamDir = 4
+    Found 16x20-bit Read Only RAM for signal <MicroinstruccionFuncion>
+    Summary:
+	inferred   1 RAM(s).
+Unit <CodigoFuncionROM> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x20-bit single-port Read Only RAM                   : 1
+ 32x20-bit single-port Read Only RAM                   : 1
+# Registers                                            : 6
+ 1-bit register                                        : 6
+# Multiplexers                                         : 2
+ 20-bit 2-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <CodigoFuncionROM>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MicroinstruccionFuncion> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 20-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <BusDir>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MicroinstruccionFuncion> |          |
+    -----------------------------------------------------------------------
+Unit <CodigoFuncionROM> synthesized (advanced).
+
+Synthesizing (advanced) Unit <CodigoOperacionROM>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_MicroInstruccionOP> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 20-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <BusDir>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <MicroInstruccionOP> |          |
+    -----------------------------------------------------------------------
+Unit <CodigoOperacionROM> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x20-bit single-port distributed Read Only RAM       : 1
+ 32x20-bit single-port distributed Read Only RAM       : 1
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+# Multiplexers                                         : 2
+ 20-bit 2-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <RegistroFlags/N_out> of sequential type is unconnected in block <UnidadDeControl>.
+WARNING:Xst:2677 - Node <RegistroFlags/OV_out> of sequential type is unconnected in block <UnidadDeControl>.
+
+Optimizing unit <UnidadDeControl> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block UnidadDeControl, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : UnidadDeControl.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 42
+#      INV                         : 2
+#      LUT2                        : 1
+#      LUT4                        : 3
+#      LUT5                        : 19
+#      LUT6                        : 16
+#      MUXF7                       : 1
+# FlipFlops/Latches                : 4
+#      FDC                         : 1
+#      FDC_1                       : 1
+#      FDCE_1                      : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 36
+#      IBUF                        : 13
+#      OBUF                        : 23
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               2  out of  126800     0%  
+ Number of Slice LUTs:                   41  out of  63400     0%  
+    Number used as Logic:                41  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     41
+   Number with an unused Flip Flop:      39  out of     41    95%  
+   Number with an unused LUT:             0  out of     41     0%  
+   Number of fully used LUT-FF pairs:     2  out of     41     4%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          39
+ Number of bonded IOBs:                  37  out of    210    17%  
+    IOB Flip Flops/Latches:               2
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 1.076ns (Maximum Frequency: 929.541MHz)
+   Minimum input arrival time before clock: 0.643ns
+   Maximum output required time after clock: 3.777ns
+   Maximum combinational path delay: 3.570ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.076ns (frequency: 929.541MHz)
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               1.076ns (Levels of Logic = 1)
+  Source:            Nivel/nclk1 (FF)
+  Destination:       Nivel/nclk1 (FF)
+  Source Clock:      clk falling
+  Destination Clock: clk falling
+
+  Data Path: Nivel/nclk1 to Nivel/nclk1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            8   0.364   0.312  Nivel/nclk1 (Nivel/nclk1)
+     INV:I->O              1   0.113   0.279  Nivel/nclk1_INV_12_o1_INV_0 (Nivel/nclk1_INV_12_o)
+     FDC_1:D                   0.008          Nivel/nclk1
+    ----------------------------------------
+    Total                      1.076ns (0.485ns logic, 0.591ns route)
+                                       (45.1% logic, 54.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              0.643ns (Levels of Logic = 1)
+  Source:            clr (PAD)
+  Destination:       RegistroFlags/C_out (FF)
+  Destination Clock: clk falling
+
+  Data Path: clr to RegistroFlags/C_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   0.001   0.293  clr_IBUF (clr_IBUF)
+     FDCE_1:CLR                0.349          RegistroFlags/Z_out
+    ----------------------------------------
+    Total                      0.643ns (0.350ns logic, 0.293ns route)
+                                       (54.4% logic, 45.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 414 / 20
+-------------------------------------------------------------------------
+Offset:              3.777ns (Levels of Logic = 6)
+  Source:            RegistroFlags/C_out (FF)
+  Destination:       MicroInstruccion<6> (PAD)
+  Source Clock:      clk falling
+
+  Data Path: RegistroFlags/C_out to MicroInstruccion<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q           1   0.364   0.556  RegistroFlags/C_out (RegistroFlags/C_out)
+     LUT6:I2->O            7   0.097   0.584  UC/SDOPC2 (UC/SDOPC1)
+     LUT5:I1->O           15   0.097   0.621  Mmux_OPCODE_SDOPC11 (OPCODE_SDOPC<0>)
+     LUT4:I0->O            4   0.097   0.707  OP_CODE_ROM/Mram_MicroInstruccionOP611 (OP_CODE_ROM/Mram_MicroInstruccionOP61)
+     LUT6:I0->O            1   0.097   0.000  Mmux_MicroInstruccion173_F (N2)
+     MUXF7:I0->O           1   0.277   0.279  Mmux_MicroInstruccion173 (MicroInstruccion_6_OBUF)
+     OBUF:I->O                 0.000          MicroInstruccion_6_OBUF (MicroInstruccion<6>)
+    ----------------------------------------
+    Total                      3.777ns (1.029ns logic, 2.748ns route)
+                                       (27.2% logic, 72.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1173 / 22
+-------------------------------------------------------------------------
+Delay:               3.570ns (Levels of Logic = 7)
+  Source:            OP_CODE<0> (PAD)
+  Destination:       MicroInstruccion<6> (PAD)
+
+  Data Path: OP_CODE<0> to MicroInstruccion<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.001   0.712  OP_CODE_0_IBUF (OP_CODE_0_IBUF)
+     LUT6:I0->O            7   0.097   0.584  UC/SDOPC2 (UC/SDOPC1)
+     LUT5:I1->O           15   0.097   0.621  Mmux_OPCODE_SDOPC11 (OPCODE_SDOPC<0>)
+     LUT4:I0->O            4   0.097   0.707  OP_CODE_ROM/Mram_MicroInstruccionOP611 (OP_CODE_ROM/Mram_MicroInstruccionOP61)
+     LUT6:I0->O            1   0.097   0.000  Mmux_MicroInstruccion173_F (N2)
+     MUXF7:I0->O           1   0.277   0.279  Mmux_MicroInstruccion173 (MicroInstruccion_6_OBUF)
+     OBUF:I->O                 0.000          MicroInstruccion_6_OBUF (MicroInstruccion<6>)
+    ----------------------------------------
+    Total                      3.570ns (0.666ns logic, 2.904ns route)
+                                       (18.7% logic, 81.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.073|         |    1.076|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.61 secs
+ 
+--> 
+
+Total memory usage is 413316 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../p4/p4.vhd" \
+"../../../../../paketaxo.vhd" \
+"../../../../../extensorS/extensorS.vhd" \
+"../../../../../extensorD/extensorD.vhd" \
+"../../../../../ESCOMIPS.vhd" \
+"../../../../../t_ESCOMIPS.vhd" \
+"../../../../../t_ESCOMIPS2.vhd" \
+"../../../../../t_ESCOM3.vhd" \
+
+# Do not sort compile order
+nosort
