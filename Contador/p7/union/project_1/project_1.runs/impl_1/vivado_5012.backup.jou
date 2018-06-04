@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon May 14 17:01:41 2018
+# Process ID: 5012
+# Current directory: C:/Users/Letty/Desktop/Arquitectura/Contador/p7/union/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log union.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source union.tcl -notrace
+# Log file: C:/Users/Letty/Desktop/Arquitectura/Contador/p7/union/project_1/project_1.runs/impl_1/union.vdi
+# Journal file: C:/Users/Letty/Desktop/Arquitectura/Contador/p7/union/project_1/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source union.tcl -notrace

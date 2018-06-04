@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date         : Mon May 14 03:33:01 2018
-| Host         : JJZEUS55 running 64-bit major release  (build 9200)
+| Date         : Mon May 14 17:07:21 2018
+| Host         : DESKTOP-8UQ4J0B running 64-bit major release  (build 9200)
 | Command      : report_methodology -file union_methodology_drc_routed.rpt -pb union_methodology_drc_routed.pb -rpx union_methodology_drc_routed.rpx
 | Design       : union
 | Device       : xc7a100tcsg324-3

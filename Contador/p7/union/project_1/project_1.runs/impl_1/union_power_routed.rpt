@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date             : Mon May 14 03:33:02 2018
-| Host             : JJZEUS55 running 64-bit major release  (build 9200)
+| Date             : Mon May 14 17:07:22 2018
+| Host             : DESKTOP-8UQ4J0B running 64-bit major release  (build 9200)
 | Command          : report_power -file union_power_routed.rpt -pb union_power_summary_routed.pb -rpx union_power_routed.rpx
 | Design           : union
 | Device           : xc7a100tcsg324-3
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 4.850        |
+| Total On-Chip Power (W)  | 4.860        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 4.734        |
+| Dynamic (W)              | 4.744        |
 | Device Static (W)        | 0.116        |
 | Effective TJA (C/W)      | 4.6          |
-| Max Ambient (C)          | 77.9         |
-| Junction Temperature (C) | 47.1         |
+| Max Ambient (C)          | 77.8         |
+| Junction Temperature (C) | 47.2         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,8 +52,8 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.114 |       88 |       --- |             --- |
-|   LUT as Logic |     0.077 |       21 |     63400 |            0.03 |
+| Slice Logic    |     0.123 |       88 |       --- |             --- |
+|   LUT as Logic |     0.087 |       21 |     63400 |            0.03 |
 |   CARRY4       |     0.015 |        6 |     15850 |            0.04 |
 |   Register     |     0.015 |       48 |    126800 |            0.04 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
@@ -61,7 +61,7 @@ Table of Contents
 | Signals        |     0.208 |       89 |       --- |             --- |
 | I/O            |     4.412 |       33 |       210 |           15.71 |
 | Static Power   |     0.116 |          |           |                 |
-| Total          |     4.850 |          |           |                 |
+| Total          |     4.860 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.401 |       0.365 |      0.035 |
+| Vccint    |       1.000 |     0.411 |       0.375 |      0.035 |
 | Vccaux    |       1.800 |     0.378 |       0.358 |      0.020 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -138,11 +138,11 @@ Table of Contents
 +-------------+-----------+
 | Name        | Power (W) |
 +-------------+-----------+
-| union       |     4.734 |
-|   contador1 |     0.067 |
-|   control1  |     0.035 |
-|   divisor1  |     0.102 |
-|   registro1 |     0.035 |
+| union       |     4.744 |
+|   contador1 |     0.071 |
+|   control1  |     0.040 |
+|   divisor1  |     0.107 |
+|   registro1 |     0.031 |
 +-------------+-----------+
 
 

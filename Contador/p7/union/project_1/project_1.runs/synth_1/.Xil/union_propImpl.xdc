@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/geoge/Desktop/p7/union/project_1/project_1.srcs/constrs_1/new/pini_o.xdc rfile:../../../project_1.srcs/constrs_1/new/pini_o.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/Letty/Desktop/Arquitectura/Contador/p7/union/project_1/project_1.srcs/constrs_1/new/pini_o.xdc rfile:../../../project_1.srcs/constrs_1/new/pini_o.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN L16 [get_ports {a[1]}]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
@@ -55,3 +55,5 @@ set_property src_info {type:XDC file:1 line:57 export:INPUT save:INPUT read:READ
 set_property PACKAGE_PIN P17 [get_ports clr]
 set_property src_info {type:XDC file:1 line:61 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN J15 [get_ports ini2]
+set_property src_info {type:XDC file:1 line:63 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN E3 [get_ports clk]
