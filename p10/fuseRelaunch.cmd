@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/t_ESCOM3_isim_beh.exe" -prj "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/t_ESCOM3_beh.prj" "work.t_ESCOM3" 

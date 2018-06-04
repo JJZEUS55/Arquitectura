@@ -1,0 +1,40 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/P9/Union/packet.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/P9/unicontrol/unicontrol.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity unicontrol
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/P9/regEdo/regEdo2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity regEdo2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/P9/nivel/nivel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity nivel
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/P9/microOpCode/microOpCode.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity microOpCode
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/P9/microFuncion/microFuncion.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity microFuncion
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/P9/decoInst/decoInst.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity decoInst
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/P9/condicion/condicion.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity condicion
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/P9/Union/Union.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Union
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/p6/pila/pila.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pila
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/p6/memProg/memProg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity memProg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/p5/p5/p5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity p5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/p4/p4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity p4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/P3/P3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_4bits
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/paketaxo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/extensorS/extensorS.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity extensorS
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/extensorD/extensorD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity extensorD
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/ESCOMIPS.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ESCOMIPS
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/t_ESCOMIPS.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity t_ESCOMIPS
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/t_ESCOMIPS2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity t_ESCOMIPS2
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geoge/Desktop/PROYECTO/ESCOMIPS/t_ESCOM3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity t_ESCOM3

@@ -1,0 +1,26 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../P9/Union/packet.vhd" \
+"../../../../../../P9/unicontrol/unicontrol.vhd" \
+"../../../../../../P9/regEdo/regEdo2.vhd" \
+"../../../../../../P9/nivel/nivel.vhd" \
+"../../../../../../P9/microOpCode/microOpCode.vhd" \
+"../../../../../../P9/microFuncion/microFuncion.vhd" \
+"../../../../../../P9/decoInst/decoInst.vhd" \
+"../../../../../../P9/condicion/condicion.vhd" \
+"../../../../../../P9/Union/Union.vhd" \
+"../../../../../../p6/pila/pila.vhd" \
+"../../../../../../p6/memProg/memProg.vhd" \
+"../../../../../../p5/p5/p5.vhd" \
+"../../../../../../p4/p4.vhd" \
+"../../../../../../P3/P3.vhd" \
+"../../../../../paketaxo.vhd" \
+"../../../../../extensorS/extensorS.vhd" \
+"../../../../../extensorD/extensorD.vhd" \
+"../../../../../ESCOMIPS.vhd" \
+"../../../../../t_ESCOMIPS.vhd" \
+"../../../../../t_ESCOMIPS2.vhd" \
+"../../../../../t_ESCOM3.vhd" \
+
+# Do not sort compile order
+nosort

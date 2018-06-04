@@ -1,0 +1,57 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/t_ESCOM3_isim_beh.exe -prj C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/t_ESCOM3_beh.prj work.t_ESCOM3 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../P9/Union/packet.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../P9/unicontrol/unicontrol.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../P9/regEdo/regEdo2.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../P9/nivel/nivel.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../P9/microOpCode/microOpCode.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../P9/microFuncion/microFuncion.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../P9/decoInst/decoInst.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../P9/condicion/condicion.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../P9/Union/Union.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../p6/pila/pila.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../p6/memProg/memProg.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../p5/p5/p5.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../p4/p4.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/../P3/P3.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/paketaxo.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/extensorS/extensorS.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/extensorD/extensorD.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/ESCOMIPS.vhd" into library work
+Parsing VHDL file "C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/t_ESCOM3.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 102684 KB
+Fuse CPU Usage: 1387 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package paketaxo
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package packet
+Compiling architecture behavioral of entity memProg [\memProg(9,25)\]
+Compiling architecture behavioral of entity pila [\pila(8)\]
+Compiling architecture behavioral of entity p5 [\p5(11,16)\]
+Compiling architecture behavioral of entity extensorD [extensord_default]
+Compiling architecture behavioral of entity extensorS [extensors_default]
+Compiling architecture a_alu_4bits of entity ALU_4bits [\ALU_4bits(16)\]
+Compiling architecture a_p4 of entity p4 [\p4(16,4)\]
+Compiling architecture behavioral of entity condicion [condicion_default]
+Compiling architecture behavioral of entity decoInst [decoinst_default]
+Compiling architecture behavioral of entity microFuncion [\microFuncion(4,20)\]
+Compiling architecture behavioral of entity microOpCode [\microOpCode(5,20)\]
+Compiling architecture behavioral of entity nivel [nivel_default]
+Compiling architecture behavioral of entity regEdo2 [regedo2_default]
+Compiling architecture behavioral of entity unicontrol [unicontrol_default]
+Compiling architecture behavioral of entity Union [union_default]
+Compiling architecture behavioral of entity ESCOMIPS [escomips_default]
+Compiling architecture behavior of entity t_escom3
+Time Resolution for simulation is 1ps.
+Waiting for 18 sub-compilation(s) to finish...
+Compiled 39 VHDL Units
+Built simulation executable C:/Users/Acer/Desktop/Arquitectura/ESCOMIPS/t_ESCOM3_isim_beh.exe
+Fuse Memory Usage: 122060 KB
+Fuse CPU Usage: 2355 ms
